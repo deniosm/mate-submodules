@@ -1,0 +1,25 @@
+mate-submodules (0.0~git20220213.a8efc6b-1) unstable; urgency=medium
+
+  * New Git snapshot.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 23 Jul 2022 17:50:46 +0200
+
+mate-submodules (0.0~git20210623.f3091f9-3) unstable; urgency=medium
+
+  [ Chris Lamb ]
+  * debian/rules:
+    + Create source tarball reproducibly. (Closes: #1001553).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 13 Dec 2021 01:55:08 +0100
+
+mate-submodules (0.0~git20210623.f3091f9-2) unstable; urgency=medium
+
+  * Re-upload as is (source-only upload).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 11 Dec 2021 21:21:01 +0100
+
+mate-submodules (0.0~git20210623.f3091f9-1) unstable; urgency=medium
+
+  * Initial upload to Debian. (Closes: #1001497).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 11 Dec 2021 01:15:31 +0100

@@ -1,0 +1,19 @@
+Package: mate-submodules-source
+Source: mate-submodules
+Version: 0.0~git20220213.a8efc6b-1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 40
+Section: devel
+Priority: optional
+Homepage: https://github.com/mate-desktop/mate-submodules
+Description: MATE code components provided as Git submodule repository
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ MATE is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package provides code components required to build other parts of the
+ MATE desktop environment.

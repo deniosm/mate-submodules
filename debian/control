@@ -1,0 +1,28 @@
+Source: mate-submodules
+Section: devel
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13),
+ tar (>= 1.28),
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://github.com/mate-desktop/mate-submodules
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/mate-submodules
+Vcs-Git: https://salsa.debian.org/debian-mate-team/mate-submodules.git
+
+Package: mate-submodules-source
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: MATE code components provided as Git submodule repository
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ MATE is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package provides code components required to build other parts of the
+ MATE desktop environment.

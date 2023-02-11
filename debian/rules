@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_autoreconf:
+
+override_dh_auto_configure:
+
+override_dh_auto_build:
+
+override_dh_install:
+	mkdir -p $(CURDIR)/debian/tmp/usr/src/
+	cd $(CURDIR) && tar  --clamp-mtime --mtime="$(SOURCE_DATE)" --mode=go=rX,u+rw,a-s --owner=0 --group=0 --numeric-owner -cv `find . -type f | grep -v ./debian/ | grep -v ./.pc/ | sort` | xz -z > $(CURDIR)/debian/tmp/usr/src/mate-submodules-source.tar.xz
+	dh_install
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
